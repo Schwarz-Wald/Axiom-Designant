@@ -3,10 +3,10 @@
 }
 
 body {
-    font-family: 'Roboto', Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     background-image: 
         linear-gradient(to bottom, #ffffff00 0%, #c9bbda 21%, #c9bbda 100%), 
-        url("https://static.wikia.nocookie.net/iowiro/images/4/4f/Wbg5.jpg/revision/latest?cb=20231027000815");
+        url("boundless\ divide.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
