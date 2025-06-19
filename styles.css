@@ -1,0 +1,180 @@
+* {
+    box-sizing: content-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: 
+        linear-gradient(to bottom, #ffffff00 0%, #c9bbda 21%, #c9bbda 100%), 
+        url("https://static.wikia.nocookie.net/iowiro/images/4/4f/Wbg5.jpg/revision/latest?cb=20231027000815");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.song-page {
+    font-style: arial, sans-serif;
+    width: 80%;
+    padding: 20px;
+    background: rgb(255, 255, 255);
+    border-radius: 8px;
+    border: 1.5px solid #d6d6d6;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+
+    margin-top: 10%;
+    margin-right: 10%;
+    margin-bottom: 15px;
+    margin-left: 10%;
+}
+
+.page-title {
+    font-size: 40px;
+    font-weight: 100;
+
+    margin-left: 2rem;
+}
+
+/* Quote Styles */
+.spoiler-quote {
+    line-height: 80%;
+
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+
+    border-top: 1.5px solid #d6d6d6;
+    border-right: 1.5px solid #d6d6d6;
+    border-bottom: 1.5px solid #d6d6d6;
+    border-left: 10px solid #d6d6d6;
+
+    margin-top: 15px;
+    margin-right: 30px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+}
+
+.page-quote {
+    line-height: 80%;
+
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+
+    border-top: 1.5px solid #d6d6d6;
+    border-right: 1.5px solid #d6d6d6;
+    border-bottom: 1.5px solid #d6d6d6;
+    border-left: 10px solid #d6d6d6;
+
+    margin-top: 15px;
+    margin-right: 30px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+}
+
+.details-header {
+    text-align: center;
+    background: #c9bbda;
+    line-height: 20%;
+
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+
+    border-top: 1.5px solid #d6d6d6;
+    border-right: 1.5px solid #d6d6d6;
+    border-bottom: 1.5px solid #7e2286;
+    border-left: 1.5px solid #d6d6d6;
+
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+#song-pack {
+    color:white;
+    text-transform: uppercase;
+}
+
+#song-name {
+    font-size: 1.5rem;
+}
+
+#song-composer {
+    padding-top: 10px;
+}
+
+.details-image {
+    text-align: center;
+    background: #f0eff1;
+
+    padding-right: 20px;
+    padding-left: 20px;
+
+    border-top: 1.5px solid #d6d6d6;
+    border-right: 1.5px solid #d6d6d6;
+    border-bottom: 1.5px solid #d6d6d6;
+    border-left: 1.5px solid #d6d6d6;
+
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+.divider-header {
+    font-size: large;
+    text-align: center;
+    background: #c9bbda;
+    line-height: 20%;
+
+    padding-right: 20px;
+    padding-left: 20px;
+
+    border-top: 1.5px solid #d6d6d6;
+    border-right: 1.5px solid #d6d6d6;
+    border-bottom: 1.5px solid #7e2286;
+    border-left: 1.5px solid #d6d6d6;
+
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+.divider-content {
+    display: flex;
+    flex-wrap: wrap;
+
+    border: 1.5px solid #d6d6d6;
+
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+.divider-item {
+    flex: 1;
+    text-align: center;
+    line-height: 40%;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1.5px solid #d6d6d6;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 100;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: 100;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+h4 {
+    color: rgb(66, 66, 66);
+    font-weight: 100;
+}
