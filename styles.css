@@ -2,8 +2,17 @@
     box-sizing: content-box;
 }
 
+@font-face {
+    font-family: 'RobotoVariable';
+    src: url('Roboto/Roboto-VariableFont_wdth,wght.ttf') format('truetype');
+    /* if the font supports weight ranges: */
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+  }
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'RobotoVariable', Helvetica, sans-serif;
     background-image: 
         linear-gradient(to bottom, #ffffff00 0%, #c9bbda 21%, #c9bbda 100%), 
         url("boundless\ divide.png");
@@ -14,7 +23,7 @@ body {
 }
 
 .song-page {
-    font-style: arial, sans-serif;
+    font-style: 'RobotoVariable', Arial, sans-serif;
     width: 80%;
     padding: 20px;
     background: rgb(255, 255, 255);
@@ -31,9 +40,25 @@ body {
 
 .page-title {
     font-size: 40px;
-    font-weight: 150;
+    font-weight: 200;
 
     margin-left: 2rem;
+}
+
+#song-button {
+    font-size: 16px;
+    background-color: rgba(204, 186, 219, 0.5);
+    border: 2px solid #55436480;
+
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+
+    margin-top: 5px;
+    margin-right: 8px;
+    margin-bottom: 5px;
+    margin-left: 8px;
 }
 
 /* Quote Styles */
